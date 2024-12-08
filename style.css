@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.formmainbox {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    background: wheat;
+    padding: 20px;
+}
+
+.form-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-lebel {
+    width: 30%;
+}
+
+.form-input {
+    width: 65%;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 5px;
+}
+
+
+.form-gender {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.gender-input {
+    margin-right: 180px;
+}
+
+.form-box {
+    margin-top: 14px;
+}
+
+.form-lebel:after {
+    content: ':';
+    position: absolute;
+    right: 0;
+}
+
+
+.form-lebel {
+    position: relative;
+}
+
+.gender:after {
+    content: ':';
+    position: absolute;
+    right: 0;
+}
+
+
+.gender {
+    position: relative;
+}
+
+
+.language:after {
+    content: ':';
+    position: absolute;
+    right: 0;
+}
+
+
+.language {
+    position: relative;
+}
